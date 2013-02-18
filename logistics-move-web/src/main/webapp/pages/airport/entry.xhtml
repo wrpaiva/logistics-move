@@ -1,0 +1,29 @@
+<%@ taglib prefix="f" uri="http://java.sun.com/jsf/core"%>
+<%@ taglib prefix="h" uri="http://java.sun.com/jsf/html"%>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Aerporto</title>
+<link rel="StyleSheet" type="text/css" href="../../style/estilos.css"
+	media="screen" />
+<script type="text/javascript"
+	src="../resources/jquery.maskedinput-1.2.1.js"></script>
+</head>
+
+<body>
+	<f:view>
+		<center>
+			<h:form id="aerporto">
+
+				<h:messages id="mensagem" />
+				<legend>Cadastro de Aeroporto</legend>
+
+				<h:outputLabel value="Nome do Aeroporto:" style="label" />
+				<h:inputText id="nome" />
+
+			</h:form>
+		</center>
+	</f:view>
+</body>
+</html>

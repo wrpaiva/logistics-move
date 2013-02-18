@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>br.com.logistics</groupId>
+    <artifactId>logistics-move</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>logistics-move-service</artifactId>
+  <name>logistics-move-service</name>
+  <description>logistics-move-service</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>br.com.logistics</groupId>
+	    <artifactId>logistics-move-entity</artifactId>
+	    <version>${project.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>br.com.logistics</groupId>
+	    <artifactId>logistics-move-dao</artifactId>
+	    <version>${project.version}</version>
+  	</dependency>
+  </dependencies>
+</project>
